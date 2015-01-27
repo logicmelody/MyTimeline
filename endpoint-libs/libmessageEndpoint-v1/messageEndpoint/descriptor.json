@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/messageEndpoint/v1/20150125135002/java/1.18.0-rc/dl.com-messageEndpoint-v1-20150125135002-java-1.18.0-rc-sources.jar", 
-      "path": "dl.com-messageEndpoint-v1-20150125135002-java-1.18.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/messageEndpoint/v1/20150127074602/java/1.18.0-rc/dl.com-messageEndpoint-v1-20150127074602-java-1.18.0-rc-sources.jar", 
+      "path": "dl.com-messageEndpoint-v1-20150127074602-java-1.18.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2015-01-25 13:50"
+      "timestamp": "2015-01-27 07:46"
     }, 
     {
-      "path": "dl.com-messageEndpoint-v1-20150125135002-java-1.18.0-rc.jar.properties", 
+      "path": "dl.com-messageEndpoint-v1-20150127074602-java-1.18.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -675,5 +675,5 @@
   "packagePath": "mytimeline", 
   "language_version": "1.18.0-rc", 
   "id": "messageEndpoint:v1", 
-  "revision": 20150125135002
+  "revision": 20150127074602
 }

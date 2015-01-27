@@ -86,7 +86,7 @@ public class AddStatusActivity extends Activity implements View.OnClickListener 
             return;
         }
 
-        new PostStatusAsyncTask(this).execute(status, timeStamp.toString(), "No subject");
+        new PostStatusAsyncTask(this).execute(status, timeStamp.toString());
     }
 
     private class PostStatusAsyncTask extends AsyncTask<String, Void, AutoStatus> {
@@ -113,7 +113,6 @@ public class AddStatusActivity extends Activity implements View.OnClickListener 
                 AutoStatus status = new AutoStatus();
                 status.setContent(params[0]);
                 status.setTimestamp(Long.valueOf(params[1]));
-                status.setSubject(params[2]);
                 if(mWithQuoteCheckBox.isChecked()) {
                     response = service.quoteAndInsertAutoStatus(status).execute();
                 } else {

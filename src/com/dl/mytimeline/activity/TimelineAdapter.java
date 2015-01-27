@@ -51,7 +51,6 @@ public class TimelineAdapter extends ArrayAdapter<AutoStatus> {
             view = convertView;
         }
 
-        TextView subject = (TextView)view.findViewById(R.id.subject);
         TextView content = (TextView)view.findViewById(R.id.content);
         TextView timestamp = (TextView)view.findViewById(R.id.timestamp);
         Button deleteButton = (Button)view.findViewById(R.id.delete_button);
@@ -59,12 +58,6 @@ public class TimelineAdapter extends ArrayAdapter<AutoStatus> {
         SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy hh:mm:ss"); 
         String dateString = formatter.format(new Date(status.getTimestamp()));
 
-        if(TextUtils.isEmpty(status.getSubject())) {
-            subject.setVisibility(View.GONE);
-        } else {
-            subject.setVisibility(View.VISIBLE);
-            subject.setText(status.getSubject());
-        }
         content.setText(status.getContent());
         timestamp.setText(dateString);
         deleteButton.setOnClickListener(new View.OnClickListener() {
