@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:38
+-keep class com.dl.mytimeline.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:55
+-keep class com.dl.mytimeline.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:58
+-keep class com.dl.mytimeline.activity.AddStatusActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.dl.mytimeline.activity.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:40
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+

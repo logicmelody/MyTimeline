@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyTimeline</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="add_text">Add</string>
+    <string name="delete_text">Delete</string>
+    <string name="post_text">Post</string>
+    <string name="total_text">Total = </string>
+    <string name="with_quote">With quote</string>
+    <string name="title_activity_add_status">AddStatusActivity</string>
+    <string name="empty_status_warning">Status content can not be empty</string>
+
+</resources>
