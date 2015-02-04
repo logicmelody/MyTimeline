@@ -1,13 +1,13 @@
 {
   "files": [
     {
-      "downloadUrl": "/downloads/statusapi/v1/20150127074611/java/1.18.0-rc/dl_mytimeline_appspot_com-statusapi-v1-20150127074611-java-1.18.0-rc-sources.jar", 
-      "path": "dl_mytimeline_appspot_com-statusapi-v1-20150127074611-java-1.18.0-rc-sources.jar", 
+      "downloadUrl": "/downloads/statusapi/v1/20150204080434/java/1.18.0-rc/dl_mytimeline_appspot_com-statusapi-v1-20150204080434-java-1.18.0-rc-sources.jar", 
+      "path": "dl_mytimeline_appspot_com-statusapi-v1-20150204080434-java-1.18.0-rc-sources.jar", 
       "type": "source", 
-      "timestamp": "2015-01-27 07:46"
+      "timestamp": "2015-02-04 08:04"
     }, 
     {
-      "path": "dl_mytimeline_appspot_com-statusapi-v1-20150127074611-java-1.18.0-rc.jar.properties", 
+      "path": "dl_mytimeline_appspot_com-statusapi-v1-20150204080434-java-1.18.0-rc.jar.properties", 
       "type": "android.properties"
     }
   ], 
@@ -674,5 +674,5 @@
   "version": "v1", 
   "language_version": "1.18.0-rc", 
   "id": "statusapi:v1", 
-  "revision": 20150127074611
+  "revision": 20150204080434
 }

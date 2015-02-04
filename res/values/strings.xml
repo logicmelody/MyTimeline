@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <string name="audience">server:client_id:404691531067-jlcfkbi7r4gk1b4ka4uq3qtodbkbspvr.apps.googleusercontent.com</string>
+
     <string name="app_name">MyTimeline</string>
     <string name="action_settings">Settings</string>
 
     <string name="add_text">Add</string>
     <string name="delete_text">Delete</string>
     <string name="post_text">Post</string>
+    <string name="post_protected_text">Post from protected API</string>
     <string name="total_text">Total = </string>
     <string name="with_quote">With quote</string>
     <string name="title_activity_add_status">AddStatusActivity</string>
